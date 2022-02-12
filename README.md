@@ -5,6 +5,7 @@
 # Pizzly 🐻 - The OAuth Integration Proxy
 
 <div align="center">
+2
 
 <img src="/views/assets/img/logos/pizzly.png?raw=true" width="300">
 
