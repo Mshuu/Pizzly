@@ -1,0 +1,22 @@
+{
+
+    "name": "Bungie",
+    "auth": {
+        "authorizationURL": "https://www.bungie.net/en/OAuth/Authorize",
+        "tokenURL": "https://www.bungie.net/Platform/App/OAuth/token/",
+        "authType": "OAUTH2",
+        "tokenParams": {},
+        "authorizationParams": {},
+        "auth": {
+            "accessType": "offline"
+        }
+    },
+    "request": {
+        "baseURL": " https://www.bungie.net/Platform",
+        "headers": {
+            "Authorization": "token ${auth.accessToken}",
+            "User-Agent": "Pizzly",
+            "X-API-Key": "39301"
+        }
+    }
+}
